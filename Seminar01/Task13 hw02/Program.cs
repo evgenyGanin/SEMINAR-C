@@ -19,7 +19,7 @@ Console.WriteLine("Введите любое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = 0;
 
-if (number > 99)
+if (number > 99) 
 {
 while (number > 999)
     {
