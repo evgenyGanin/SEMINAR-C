@@ -20,7 +20,7 @@ if (number > 99 && number < 1000)
 {
     Console.WriteLine(number /10%10);
 }
-else
+else 
 {
     System.Console.WriteLine("Вы ввели не трехзначное число. Повторите попытку...");
 }
