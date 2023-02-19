@@ -37,5 +37,5 @@ int DigNum (int num)
         number = number/10;
         res++;
     }
-    return res;
+    return res; 
 }
