@@ -33,6 +33,30 @@ else if (number<100)
     Console.WriteLine("Третьей цифры нет");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //------Альтернативное решение-----------------
 // Console.WriteLine("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
