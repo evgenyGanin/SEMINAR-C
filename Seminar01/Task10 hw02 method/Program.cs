@@ -30,4 +30,4 @@ int SecondNumber(int num)
 {
     int res = num / 10 % 10;
     return res;
-}
+} 
