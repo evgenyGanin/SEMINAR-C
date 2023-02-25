@@ -20,7 +20,7 @@ void Square (int num)
 {
     int index = 1;
     while (index <= num)
-    {
+    { 
     Console.WriteLine($"{index, 2} в кубе это ({index}x{index}x{index}) и равно: {index * index * index}");
     index++;
     }
