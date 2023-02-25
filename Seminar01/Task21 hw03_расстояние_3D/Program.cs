@@ -22,14 +22,14 @@ System.Console.Write("x: "); int aa = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("y: "); int bb = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("z: "); int cc = Convert.ToInt32(Console.ReadLine());
 
-double result = Dist (aa, bb, cc, xx, yy, zz);
-Console.WriteLine($"Расстояние между точками А и В в 3D пространстве будет равно: {result}");
+double res = Dist (aa, bb, cc, xx, yy, zz);
+Console.Write("Расстояние между точками А и В в 3D: ");
+Console.Write(Math.Round(res, 2, MidpointRounding.ToZero));
 
 double Dist (int x, int y, int z, int a, int b, int c)
 {
-    double sqrt = Math.Sqrt(Math.Pow(a-x,2)+Math.Pow(b-y,2)+Math.Pow(c-z,2));
-    double sqrtRnd = Math.Round(sqrt, 2, MidpointRounding.ToZero);
-    return sqrtRnd;
+    double sqr = Math.Sqrt(Math.Pow(a-x,2)+Math.Pow(b-y,2)+Math.Pow(c-z,2));
+    return sqr;
 }
 
 
