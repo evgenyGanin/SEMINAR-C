@@ -19,7 +19,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99 && number < 1000)
 {
     int result = SecondNumber(number);
-    System.Console.WriteLine($"Второй цифрой введенного вами числа будет: {result}");
+    Console.WriteLine($"Второй цифрой введенного вами числа будет: {result}");
 }
 else
 {
