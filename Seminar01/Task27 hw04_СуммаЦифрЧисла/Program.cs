@@ -26,7 +26,7 @@ int Input(string msg)
     int res = Convert.ToInt32(x);
     return res;
 }
-
+  
 int Sum(int a)
 {
     int res = 0;
